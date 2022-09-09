@@ -9,5 +9,6 @@ class CalculatorTest(unittest.TestCase):
 #Code Implementation
 
 def add(str):
-  pass
+  if str=="":
+    return 0
 
