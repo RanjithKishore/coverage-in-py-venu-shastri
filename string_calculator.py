@@ -1,3 +1,6 @@
 
 def add(str):
-  pass
+  if str=="":
+    return 0
+  
+  
