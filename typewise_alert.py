@@ -12,6 +12,7 @@ def classify_temperature_breach(coolingType, temperatureInC):
   upperLimit = 0
   if coolingType == 'PASSIVE_COOLING':
     lowerLimit = 0
+    
     upperLimit = 35
   elif coolingType == 'HI_ACTIVE_COOLING':
     lowerLimit = 0
